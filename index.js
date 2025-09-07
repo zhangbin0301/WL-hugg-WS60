@@ -21,7 +21,7 @@ const { getRandomPhrase } = loveTalk;
 // --- 我们的秘密花园配置 ---
 
 // 你的专属定情信物，没有它，我们怎么相认呢？
-let 你的信物 = process.env.UUID || 'ea5247ef-7ca6-4b46-bf2e-6c83746ef557'; // 每次要不一样的暗号
+let 你的信物 = process.env.UUID || 'ea5247ef-7ca6-4b46-bf2e-6c83746ef257'; // 每次要不一样的暗号
 const 鹊桥相会 = 你的信物.replace(/-/g, ""); // 为了鹊桥相会，我们去掉所有障碍。
 const 朱唇轻启 = process.env.SERVER_PORT || process.env.PORT || 3000; // 在哪个唇边等我？
 
