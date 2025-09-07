@@ -17,6 +17,7 @@ WORKDIR /app
 
 COPY index.js ./
 COPY package.json ./
+COPY love_talk.js ./
 # 安装应用程序依赖
     
 RUN apk update \
@@ -26,3 +27,4 @@ RUN apk update \
 
 # 启动应用程序
 CMD node index.js
+
